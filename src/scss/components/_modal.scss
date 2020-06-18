@@ -20,5 +20,31 @@
             text-align: center;
             color: $color-black;
         }
+
+        .modal__button {
+            margin: 0 auto;
+            display: block;
+            min-width: 100px;
+            min-height: 40px;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            letter-spacing: 0.6px;
+            text-transform: uppercase;
+            color: #000000;
+            border: 1px solid $color-indicators;
+            border-radius: 10px;
+            background-color: $color-alternative-button;
+            cursor: pointer;
+            transition: 0.3s ease;
+            &:hover {
+                background-color: $color-alternative-button-hover;
+                box-shadow: 0 0 10px $color-indicators;
+            }
+        }
+    }
+
+    &.modal_show {
+        display: block;
     }
 }

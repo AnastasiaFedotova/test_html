@@ -677,3 +677,27 @@ header {
       font-size: 24px;
       text-align: center;
       color: #000000; }
+    .modal .modal__content .modal__button {
+      margin: 0 auto;
+      display: block;
+      min-width: 100px;
+      min-height: 40px;
+      font-size: 24px;
+      line-height: 28px;
+      text-align: center;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      color: #000000;
+      border: 1px solid #dcdcdc;
+      border-radius: 10px;
+      background-color: #ffbf86;
+      cursor: pointer;
+      -webkit-transition: 0.3s ease;
+      -o-transition: 0.3s ease;
+      transition: 0.3s ease; }
+      .modal .modal__content .modal__button:hover {
+        background-color: #ffb574;
+        -webkit-box-shadow: 0 0 10px #dcdcdc;
+                box-shadow: 0 0 10px #dcdcdc; }
+  .modal.modal_show {
+    display: block; }
