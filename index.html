@@ -10,10 +10,10 @@
         <link rel="stylesheet" href="public/css/main.css">
     </head>
     <body class="page">
-       <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-     -->   <div class="modal">
+        <div class="modal">
             <div class="modal__content">
                 <p class="modal__message"></p>
             </div>
@@ -124,7 +124,7 @@
 
                     <form class="calculator__form" name="calculatorForm">
                         <ul class="calculator__list">
-                            <li class="calculator__list-item">
+                            <li class="calculator__list-item calculator__list-item_size_one">
                                 <label class="calculator__label calculator__label_selected">
                                     <img class="calculator__window-img" src="public/images/1.png" width="58" height="91" alt="Одностворчатое окно">
                                     <input class="calculator__radio" type="radio" name="window" id="univalve" checked>
@@ -134,7 +134,7 @@
                                 </label> 
                             </li>
 
-                            <li class="calculator__list-item">
+                            <li class="calculator__list-item calculator__list-item_size_two">
                                 <label class="calculator__label">
                                     <img class="calculator__window-img" src="public/images/2.png" width="107" height="91" alt="Одностворчатое окно">
                                     <input class="calculator__radio" type="radio" name="window" id="bivalve">
@@ -144,7 +144,7 @@
                                 </label>
                             </li>
 
-                            <li class="calculator__list-item">
+                            <li class="calculator__list-item calculator__list-item_size_three">
                                 <label class="calculator__label">
                                     <img class="calculator__window-img" src="public/images/3.png" width="160" height="92" alt="Одностворчатое окно">
                                     <input class="calculator__radio" type="radio" name="window" id="tricuspid">
@@ -154,7 +154,7 @@
                                 </label>
                             </li>
 
-                            <li class="calculator__list-item">
+                            <li class="calculator__list-item calculator__list-item_size_four">
                                 <label class="calculator__label">
                                     <img class="calculator__window-img" src="public/images/4.png" width="173" height="140" alt="Одностворчатое окно">
                                     <input class="calculator__radio" type="radio" name="window" id="balconyBlock">
@@ -164,7 +164,7 @@
                                 </label>
                             </li>
 
-                            <li class="calculator__list-item">
+                            <li class="calculator__list-item calculator__list-item_size_five">
                                 <label class="calculator__label">
                                     <img class="calculator__window-img" src="public/images/5.png" width="167" height="140" alt="Одностворчатое окно">
                                     <input class="calculator__radio" type="radio" name="window" id="glazing">
@@ -177,38 +177,37 @@
 
                         <div class="сalculator__data">
                             <div class="calculator__data-size">
-                                <img class="calculator__preview" src="public/images/" alt="шаблон окна">
+                                <img class="calculator__preview" src="public/images/1(1).png" width="105" height="164" alt="шаблон окна">
                                 <label class="calculator__width-label">
                                     ширина, см
-                                    <input class="calculator__width-input" type="number" placeholder="120">                                
+                                    <input class="calculator__width-input" type="number" value="120">                                
                                 </label>
                                 <span class="calculator__symbol">x</span>
                                 <label class="calculator__height-label">
                                     высота, см
-                                    <input class="calculator__height-input" type="number" placeholder="120">
+                                    <input class="calculator__height-input" type="number" value="120">
                                 </label>
                             </div>
 
-                            <h2 class="calculator__data-title">
-                                Одностворчатое окно КВЕ
-                            </h2>
-
                             <ul class="calculator__data-list">
+                                <h2 class="calculator__data-title">
+                                        Одностворчатое окно КВЕ
+                                    </h2>
                                 <li class="calculator__data-item">
                                     <h3 class="calculator__data-subtitle">
                                         1. Критерий выбора
                                     </h3>
                                     <label class="calculator__data-label">
                                         <input class="calculator__data-input" type="radio" name="criterion" id="cr1" checked>
-                                        пункт выбора 1
+                                        <span class="calculator__data-subp">пункт выбора 1</span>
                                     </label>
                                     <label class="calculator__data-label">
                                         <input class="calculator__data-input" type="radio" name="criterion" id="cr2">
-                                        пункт выбора 2
+                                        <span class="calculator__data-subp">пункт выбора 2</span>
                                     </label>
                                     <label class="calculator__data-label">
                                         <input class="calculator__data-input" type="radio" name="criterion" id="cr3">
-                                        пункт выбора 3
+                                        <span class="calculator__data-subp">пункт выбора 3</span>
                                     </label>
                                 </li>
                                 <li class="calculator__data-item"> 
@@ -217,17 +216,17 @@
                                     </h3>
                                     <select class="calculator__data-select">
                                         <option class="calculator__data-option">
-                                            не открывается
+                                            Не открывается
                                         </option>
                                         <option class="calculator__data-option">
-                                            открывается
+                                            Открывается
                                         </option>
                                     </select>
                                 </li>
                             </ul>
                             
                             <div class="calculator__result">
-                                <input class="calculator__input" type="tel">
+                                <input class="calculator__input" type="tel" placeholder="Введите номер">
                                 <button class="calculator__button" type="submit">
                                     Рассчитать
                                 </button>
