@@ -207,6 +207,18 @@ header {
       -webkit-box-shadow: 0 0 10px #767676;
               box-shadow: 0 0 10px #767676; }
 
+@media (max-width: 767px) {
+  .contact-form {
+    height: auto; } }
+
+@media (max-width: 675px) {
+  .contact-form .contact-form__title {
+    margin: 15px auto;
+    max-width: 350px; }
+  .contact-form .contact-form__input,
+  .contact-form .contact-form__button {
+    width: 90%; } }
+
 @media (max-width: 480px) {
   .contact-form {
     width: 100%; }
