@@ -15,8 +15,14 @@ let css = function(done) {
     done();
 };
 
+let js = function(done) {
+    gulp.src("src/js/libs/*.js")
+        .pipe(concat("main.js"))
+        .pipe(gulp.dest("public/js/"));
+    done();
+};
 
 
-exports.build = gulp.series(css);
+exports.build = gulp.series(css, js);
 
 gulp.watch("src/scss/**/*.scss", exports.build);

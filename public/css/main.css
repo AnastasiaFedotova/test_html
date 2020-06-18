@@ -672,7 +672,7 @@ header {
     border-radius: 10px; }
     .modal .modal__content .modal__message {
       display: block;
-      margin: auto;
+      margin: 20px auto;
       font-family: "MyriadPro Semibold", Helvetica, Arial, sans-serif;
       font-size: 24px;
       text-align: center;
