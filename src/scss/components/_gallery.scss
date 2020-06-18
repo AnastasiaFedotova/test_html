@@ -42,3 +42,12 @@
         }
     }
 }
+
+@media (max-width: 480px) {
+    .gallery .gallery__slider {
+        height: auto;
+        .gallery__indicators {
+            display: none;
+        }
+    }
+}

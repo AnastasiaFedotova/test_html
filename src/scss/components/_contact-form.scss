@@ -50,3 +50,15 @@
         }
     }
 }
+
+@media (max-width: 480px) {
+    .contact-form {
+        width: 100%;
+        .contact-form__input,
+        .contact-form__button {
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+    }
+}

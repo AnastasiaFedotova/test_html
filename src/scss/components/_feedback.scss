@@ -33,3 +33,16 @@
         background-color: $color-white;
     }
 }
+
+@media (max-width: 767px) {
+    .feedback {
+        .feedback__wrap {
+            padding: 0;
+            .feedback__form.contact-form,
+            .feedback__title {
+                margin: 10px auto 20px auto;
+                width: 100%;
+            }
+        }        
+    }
+}
