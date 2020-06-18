@@ -3,6 +3,8 @@
 # Github Pages: https://anastasiafedotova.github.io/test_html/
 
 ## Used technologies:
+*JS*
+*JQuery*
 *HTML5*
 *CSS*
 *Grid*
