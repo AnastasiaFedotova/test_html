@@ -92,6 +92,7 @@
             border-radius: 2%;
             opacity: 0.58;
             box-shadow: 2.5px 4.3px 10px rgba(0, 0, 0, 0.23), inset 1px 1.7px 6px rgba(0, 0, 0, 0.35);
+            overflow: hidden;
             .calculator__data-size {
                 position: relative;
                 padding: 40px 27px;
@@ -353,6 +354,15 @@
                         margin-bottom: 23px;
                         .calculator__data-label {
                             display: flex;
+                        }
+                        
+                        &:nth-child(3)::after {
+                            right: 0;
+                            left: 3%;
+                        }
+
+                        .calculator__data-select {
+                            padding-left: 12%;
                         }
                     }
                 }
