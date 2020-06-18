@@ -1,0 +1,22 @@
+.footer {
+    height: 148px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.6px;
+    color: $color-white;
+    background-color: $color-base-footer;
+    .footer__wrap {
+        display: flex;
+        height: 100%;
+        .footer__item {
+            align-self: center;
+            .footer__info {
+                padding: 13px 10px 10px 10px;
+                font-size: 24px;
+                line-height: 29px;
+                letter-spacing: 0.6px;
+                color: $color-white;
+            }
+        }
+    }
+}

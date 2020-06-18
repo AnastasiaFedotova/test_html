@@ -1,0 +1,53 @@
+.header {
+    background-color: $color-base-header;
+    color: $color-base-title;
+    .header__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        .header__item {
+            margin: 0 10px;
+            &:nth-last-child(1) {
+                margin-left: auto;
+            }
+
+            &:nth-child(2) {
+                margin: 0;
+            }
+
+            .header__сompany-name {
+                display: inline-block;
+                width: 163px;
+                height: 63px;
+                font-family: $font_basic_title;
+                font-size: 32px;
+                line-height: 0.8;
+            }
+
+            .header__caption {
+                font-size: 16px;
+            }
+
+            .header__contact {
+                display: block;
+                font-family: $font_basic_text;
+                font-size: 40px;
+                line-height: 46px;
+                text-align: right;
+                letter-spacing: 1px;
+                color: $color-base-title;
+                transition: 0.3s ease;
+                cursor: pointer;
+                &:nth-child(1) {
+                    padding-top: 4px;
+                }
+
+                &:hover {
+                    color: $color-white;
+                    transform: scale(0.95);
+                }
+            }
+        }
+    }
+}

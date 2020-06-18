@@ -1,0 +1,23 @@
+.content {
+    margin: 63px 0 69px 0;
+    color: $color-black;
+    .content__title {
+        margin-bottom: 28px;
+        font-family: $font_basic_title;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.6px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .content__description {
+        margin: 0 auto;
+        max-width: 981px;
+        width: 100%;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.35px;
+        text-align: justify;
+    }
+}
